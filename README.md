@@ -1,4 +1,4 @@
-[![<Diego Salazar>](https://circleci.com/gh/diegosalazar85/project-ml-microservice-kubernetes.svg?style=svg)](<LINK>)
+[![<Diego Salazar>](https://circleci.com/gh/diegosalazar85/project-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/diegosalazar85/project-ml-microservice-kubernetes)
 
 ## Project Overview
 
