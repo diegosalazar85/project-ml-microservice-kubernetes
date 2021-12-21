@@ -1,4 +1,4 @@
-[![<Diego Salazar>](https://circleci.com/gh/diegosalazar85/DevOps_Microservices.svg?style=svg)](<LINK>)
+[![<Diego Salazar>](https://circleci.com/gh/diegosalazar85/project-ml-microservice-kubernetes.svg?style=svg)](<LINK>)
 
 ## Project Overview
 
@@ -48,3 +48,28 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+---
+## File Structure
+```
+repo
+|   app.py - Python prediction app code
+|   docker-compose.yml - Application services configuration
+|   make_predictions.sh - Script to request prediction
+|   Makefile - List of rules that tells the system which commands to execute
+|   requirements.txt - Application dependency list
+|   run_docker.sh - Script to run application on Docker
+|   run_kubernetes.sh - Script to run application on Kubernetes
+|   upload_docker.sh - Script to push Docker image to Container Repository
+|
+└───.circleci
+│   │   config.yml - CircleCI pipeline configuration
+│   
+└───model_data
+│   │   boston_housing_prediction.joblib - Pretrained model in joblib format
+│   │   housing.csv - Pretrained model in CSV format
+│
+└───output_txt_files
+    |   docker_out.txt - Prediction log output when running from Docker
+    |   kubernetes_out.txt - Prediction log output when running from Kubernetes
+
+```
